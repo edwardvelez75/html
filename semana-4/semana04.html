@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lista y formularios</title>
+</head>
+<body style="background-color:coral;">
+    <header>
+        <img src="./descarga.png"alt=""width="100" height="100">
+        <h1>LISTA Y FORMULARIO</h1>
+        <H2>MENU  NAVEGACION</H2>
+    </header>
+    <nav>
+    <ul>
+        <li type="disc" style="color:red";>HOME</li>  
+        <li type="square" style="color:red";>PRODUCTOD</li>
+        <li type="disc" style="color:red";>SERVICIOS</li>
+    </ul>
+    </nav>   
+    <SECTION>
+        <form action="datos.php"  method="post"></form>
+        <fieldset>
+            <label>Nombre completo:</label>
+            <input name="nombre" type="text"  placeholder="Ingrese su nombre completo" required="">
+            <br><br>
+            <label>E-mail:</label>
+            <input name="email" type="email"  placeholder="Ingrese su email" required="">
+            <br><br>
+            <label>Contraseña:</label>
+            <input name="contraseña" type="password"  placeholder="Ingrese su contraseña" required="">
+            <br><br>
+
+            <label > Selecciona tus hobbis:</label>
+            <br>
+            <input name="cine" type="checkbox">cine<br>
+            <input name="lectura" type="checkbox">lectura<br>
+            <input name="deporte" type="checkbox">deporte<br>
+        <br>
+    <label>Estado civil</label><br>
+    <input name="estcivil" type="radio" value="casado">casado(a)<br>
+    <input name="estcivil" type="radio" value="casado">soltero(a)<br>
+    <input name="estcivil" type="radio" value="casado">viudo(a)<br>
+    <br>
+    <br>
+    <label>PROGRAMAS TECNICOS:</label>
+         <textarea name="mensaje" rows="5" cols="40"></textarea>
+     </fieldset>    
+     <br><br>
+     <button type="submit">Enviar</button>
+     <button type="reset">Cancelar</button>
+    <br>
+    <br>
+    </form>
+</section>
+  <footer>
+        Derechos reservados &copy;2022&#64;NOMBRE STD
+  </footer>
+</body>
+</html>
