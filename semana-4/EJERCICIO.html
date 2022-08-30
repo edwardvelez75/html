@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>listas-Formulario</title>
+</head>
+<body style="background-color:coral;">
+    <header>
+        <img src="./IMG/WhatsApp Image 2022-08-23 at 7.20.30 PM.jpeg"alt="incap" width="100" height="100">
+        <h1>LISTA Y FORMULARIOS -HTML 5</h1>
+    </header>
+    
+<nav>
+    <ul>
+        <ul>
+            <li type="disc" style="color:white">HOME</li>
+            <li type="disc" style="color:white">PRODUCTOS</li>
+            <li type="disc" style="color:white">SERVICIOS</li>
+            <li type="disc" style="color:white">CONTACTO</li>
+        </ul>
+    </ul>
+<section>
+    <form action="datos.php" method="post">
+        <fieldset>
+            <label>Nombre completo:</label><br>
+            <input type="text" name="nombre" placeholder="ingrese nombre completo" required=""><br><br>
+            
+            <label>EMAIL:</label><br>
+            <input type="text" name="email" placeholder="ingrese email" required=""><br><br>
+
+            <label>contraseña:</label><br>
+            <input type="password" name="password" placeholder="contraseña" required=""><br><br>
+            <hr>
+            <label > Selecciona tus hobbies:</label>
+            <br>
+            <input type="checkbox"name="cine">cine <br>
+            <input type="checkbox"name="lectura">lectura<br>
+            <input type="checkbox"name="deporte">deporte<br>
+        <br>
+        <hr>
+    <label>Estado civil</label><br>
+    <input name="estcivil" type="radio" value="casado">casado(a)<br>
+    <input name="estcivil" type="radio" value="casado">soltero(a)<br>
+    <input name="estcivil" type="radio" value="casado">viudo(a)<br>
+    <br>
+    <br>
+    <hr>
+    <label>PROGRAMAS TECNICOS:</label><br>
+         <select name="select">
+            <option>seleccione prodrama...</option>
+            <option>SISTEMAS</option>
+            <option>DISEÑO GRAFICO</option>
+            <option>CONTABILIDAD</option>
+         </select>
+         <BR></BR>
+         <Label>TU COMENTARIO</Label><BR>
+         <textarea name="mensaje" rows="5" cols="40"></textarea>
+     </fieldset>  
+     <br><br>
+     <center>
+     <button type="submit">Enviar</button>
+     <button type="reset">Cancelar</button>
+     </center>
+    <br>
+    <br>
+    </form>
+</section>
+  <footer>
+    <center>
+        Derechos reservados &copy;2022&#64;edward velez
+    </center>
+  </footer>
+</body>
+</html>
+
+
+
+
+</body>
+</html>
